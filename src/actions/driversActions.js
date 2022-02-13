@@ -17,6 +17,6 @@ export const addDriver = (drivers, newDriver) => {
         // array of objects
         const allDrivers = drivers;
         // update drivers array in redux store
-        await dispatch({type: "ADD_DRIVER", payload: allDrivers})
+        await dispatch({type: "ADD_DRIVER", payload: allDrivers});
     }
 }
