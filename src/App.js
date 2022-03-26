@@ -11,13 +11,7 @@ const App = () => {
     <Fragment>
       <MainLayout>
         <Switch>
-          <Route
-            path="/"
-            render={() => {
-              return <FirstPage />;
-            }}
-            exact
-          />
+          <Route path="/" component={FirstPage} exact />
           <Route path="/admin-panel" component={AdminPanel} exact />
         </Switch>
       </MainLayout>
