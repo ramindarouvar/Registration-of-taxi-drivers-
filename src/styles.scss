@@ -113,3 +113,59 @@ body{
     color: #b3b7c3;
     font-size: 20px;
 } 
+.sidenav {
+height: 100%; 
+width: 250px; 
+position: fixed; 
+z-index: 1;
+top: 0;
+right: -250px;
+background-color: rgba(34, 17, 15, 0.95); 
+overflow-x: hidden; 
+padding-top: 20px; 
+transition: 0.5s; 
+font-size: 25px;
+}
+
+.sidenav a {
+padding: 15px 15px 15px 32px;
+text-decoration: none;
+color: #dddddd;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #343421;
+background-color: #f6e8a8;
+}
+
+.sidenav .closebtn {
+font-size: 50px;
+background-color: transparent;
+border: none;
+color: #e3e3e3;
+transition: 0.2s;
+}
+.sidenav .closebtn:hover {
+font-size: 50px;
+background-color: transparent;
+border: none;
+color: #f6e8a8;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+@media (min-width: 991.98px) { 
+.nav-items-container{
+    width: 90%;
+}
+}
+@media (min-width: 1154px) {
+.nav-items-container{
+    width: 80%;
+}
+}
