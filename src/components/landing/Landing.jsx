@@ -6,7 +6,7 @@ const Landing = () => {
         <Fragment>
             <div className='container my-5'>
                 <div className='cards row justify-content-around'>
-                    <div className='card col-3 px-0'>
+                    <div className='card mb-3 col-md-5 col-lg-3 px-0'>
                         <img className='card-img-top' src='./img/fani.jpg' alt="معاینه فنی"/>
                         <div className='card-body'>
                             <h3 className="card-title">معاینه فنی</h3>
@@ -16,7 +16,7 @@ const Landing = () => {
                                  </p>
                         </div>
                     </div>
-                    <div className='card col-3 px-0'>
+                    <div className='card mb-3 col-md-5 col-lg-3 px-0'>
                         <img className='card-img-top' src='./img/parvane.jpg' alt="پروانه تاکسی"/>
                         <div className='card-body'>
                             <h3 className="card-title">پروانه هوشمند تاکسی</h3>
@@ -26,7 +26,7 @@ const Landing = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='card col-3 px-0'>
+                    <div className='card mb-3 col-md-11 col-lg-3 px-0'>
                         <img className='card-img-top' src='./img/nosazi.jpg' alt="طرح نوسازی"/>
                         <div className='card-body'>
                             <h3 className="card-title">طرح نوسازی</h3>
@@ -41,20 +41,24 @@ const Landing = () => {
             </div>
             <div className='jumbotron jumbotron-fluid'>
                 <div className='container'>
-                <h1 className='display-3 text-right'>
-                    بانک اطلاعاتی رانندگان تاکسی
-                </h1>
-                <p className='text-right'>
-                    این وبسایت سامانه ای است برای ثبت اطلاعات رانندگان و دسترسی مدیر وبسایت به اطلاعات تجمیع شده.
-                </p>
+                    <h1 className='d-none d-md-block display-4 text-right'>
+                        بانک اطلاعاتی رانندگان تاکسی
+                    </h1>
+                    <h1 className='d-block d-md-none display-5 text-right'>
+                        بانک اطلاعاتی رانندگان تاکسی
+                    </h1>
+                    <p className='text-right'>
+                        این وبسایت سامانه ای است برای ثبت اطلاعات رانندگان و دسترسی مدیر وبسایت به اطلاعات تجمیع شده.
+                    </p>
                 </div>
             </div>
             <div className='container'>
                 <div className='row'>
-                    <div className='col-6'>
-                        <img src='./img/fani.jpg' className='w-100 rightPics'/>
+                    <div className='col-12 col-lg-6'>
+                        <img src='./img/fani.jpg' className='w-100 d-none d-lg-block rightPics'/>
+                        <img src='./img/fani.jpg' className='w-100 d-block d-lg-none rounded mb-3'/>
                     </div>
-                    <div className='col-6'>
+                    <div className='col-12 col-lg-6'>
                         <h1>معاینه فنی</h1>
                         <p className='text-justify'>
                         معاینه فنی خودرو روشی است که در بسیاری از کشورها توسط دولتهای ملی یا محلی اعمال شده‌است، که در آن یک وسیله نقلیه برای بازرسی از اطمینان از عدم مطابقت با مقررات حاکم بر ایمنی
@@ -64,22 +68,26 @@ const Landing = () => {
                 </div>
                 <hr className='my-5'/>
                 <div className='row'>
-                    <div className='col-6'>
+                    <div className='col-12 d-block d-lg-none'>
+                        <img src='./img/parvane.jpg' className='w-100 rounded mb-3'/>
+                    </div>
+                    <div className='col-12 col-lg-6'>
                         <h1>پروانه هوشمند تاکسی</h1>
                         <p className='text-justify'>
                             در پروانه هوشمند گواهی صحت، سلامت و تایید صلاحیت راننده، معاینه فنی و چک خودرو انجام در نظر گرفته می‌شود. در این پروانه، مالکیت خودرو احراز شده و پس از آن پروانه صادر می‌شود.                        
                         </p>
                     </div>
-                    <div className='col-6'>
+                    <div className='d-none d-lg-block col-6'>
                         <img src='./img/parvane.jpg' className='w-100 leftPics'/>
                     </div>
                 </div>
                 <hr className='my-5'/>
                 <div className='row mb-5'>
-                    <div className='col-6'>
-                        <img src='./img/nosazi.jpg' className='w-100 rightPics'/>
+                    <div className='col-12 col-lg-6'>
+                        <img src='./img/nosazi.jpg' className='w-100 d-none d-lg-block rightPics'/>
+                        <img src='./img/nosazi.jpg' className='w-100 d-block d-lg-none rounded mb-3'/>
                     </div>
-                    <div className='col-6'>
+                    <div className='col-12 col-lg-6'>
                         <h1>طرح نوسازی</h1>
                         <p className='text-justify'>
                         در این طرح پس از اعلام نمایندگی‌های خودرو ساز، متقاضیان نسبت به تحویل خودروی فرسوده به مراکز اسقاط اقدام و ارزش گواهی اسقاط و لاشه خودروی خود را نیز مطابق با قیمت‌های اعلام شده نسبت به نوع خودرو از مراکز اسقاط دریافت می‌کنند.
@@ -89,18 +97,23 @@ const Landing = () => {
                 </div>
             </div>
             <div className='subcribeNews text-center'>
-                <h1 className='text-venter text-light pt-5 pb-4'>
+                <h1 className='d-none d-sm-block text-venter text-light pt-5 pb-4'>
                     آیا می خواهید از آخرین خبر ها مطلع شوید؟
                 </h1>
+                <h3 className='d-block d-sm-none text-venter text-light pt-5 pb-4'>
+                    آیا می خواهید از آخرین خبر ها مطلع شوید؟
+                </h3>
                 <div className='w-50 mx-auto'>
-                    <form className='form-group input-group w-50 mx-auto' 
+                    <form className='form-group input-group mx-auto' 
                             onSubmit={(e)=>{
                                 e.preventDefault();
                             }}
                     >
                         <div className='input-group-prepend'>
-                            <button type='submit' className='btn btn-warning'>
-                                عضویت در خبرنامه
+                            <button type='submit' className='btn btn-warning d-none d-sm-block'>
+                                عضویت 
+                            </button>
+                            <button type='submit' className='fa fa-paper-plane-o  btn btn-warning d-block d-sm-none'>
                             </button>
                         </div>
                         <input type="email" className="form-control text-center" placeholder='ایمیل (example@example.com)' />

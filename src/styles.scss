@@ -159,6 +159,11 @@ color: #f6e8a8;
 .sidenav a {font-size: 18px;}
 }
 
+@media (max-width: 600px) { 
+    .register-section{
+        width: 450px !important;
+    }
+}
 @media (min-width: 991.98px) { 
 .nav-items-container{
     width: 90%;
