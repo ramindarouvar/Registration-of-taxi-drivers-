@@ -30,15 +30,15 @@ const AdminPanel = ({match}) => {
         <div className='my-5'>
             <div className='container-fluid'>
                 <div className='row'>
-                    <div className='col-12 col-md-4 col-lg-3 px-3'>
+                    <div className='col-12 col-md-4 col-lg-3 px-3 mb-4'>
                         <div className='card'>
                             <h3 className='text-center bg-info text-light py-1'>مدیریت</h3>
                             <div className='row'>
-                                <div className='text-center'>
+                                <div className='text-center col-6 col-md-12'>
                                     <img src='./img/person3.jpg' className='w-75 rounded-circle img-thumbnail' alt='admin-photo'/>
                                 </div>
                                 <hr />
-                                <div className='card-body' style={{fontSize: "20px"}}>
+                                <div className='card-body col-6 col-md-12' style={{fontSize: "20px"}}>
                                     نام مدیر: 
                                     {" "}
                                     <span className="mr-1 text-muted">احمد</span>
@@ -63,9 +63,8 @@ const AdminPanel = ({match}) => {
                                     {" "}
                                     <span className="mr-1 text-muted">1400/10/25</span>
                                 </div>
-
-                                <a href="#" className='text-center btn btn-danger text-light py-1 rounded-0' style={{fontSize: "24px"}}>خروج</a>
                             </div>
+                            <a href="#" className='text-center btn btn-danger text-light py-1 rounded-0' style={{fontSize: "24px"}}>خروج</a>
                         </div>
                     </div>
                     <div className='col-12 col-md-8 col-lg-9'>
