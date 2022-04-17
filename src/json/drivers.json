@@ -7,23 +7,5 @@
         "address": "تهران - خیابان ولیعصر - کوچه 38 - پلاک 53 - واحد 1",
         "personPhotoUrl": "./img/drivers/person4.jpg",
         "dLicenseCardImageUrl": "./img/gavahiname.jpg"
-    },
-    "2": {
-        "id": 2,
-        "firstname": "سجاد",
-        "lastname": "اکبری",
-        "phone": "09964444444",
-        "address": "تهران - خیابان ولیعصر - کوچه 38 - پلاک 53 - واحد 2",
-        "personPhotoUrl": "./img/drivers/person5.jpg",
-        "dLicenseCardImageUrl": "./img/gavahiname.jpg"
-    },
-    "3": {
-        "id": 3,
-        "firstname": "اردلان",
-        "lastname": "کاویانی",
-        "phone": "09962222222",
-        "address": "تهران - خیابان ولیعصر - کوچه 38 - پلاک 53 - واحد 3",
-        "personPhotoUrl": "./img/drivers/person6.jpg",
-        "dLicenseCardImageUrl": "./img/gavahiname.jpg"
     }
 }

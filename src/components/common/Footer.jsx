@@ -3,13 +3,27 @@ import React from 'react';
 const Footer = () => {
     return ( 
         <div className='footer'>
-            <div className='row justify-content-around text-light py-4'>
-                <div className='col-2 py-5'>
+            <div className='row justify-content-center py-4 pt-5 d-lg-none'>
+                <a href='#' className='socialNetwork col-2 col-md-1 text-center'>
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                </a>
+                <a href='#' className='socialNetwork col-2 col-md-1 text-center'>
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                </a>
+                <a href='#' className='socialNetwork col-2 col-md-1 text-center'>
+                    <i class="fa fa-telegram fa-2x" aria-hidden="true"></i>
+                </a>
+                <a href='#' className='socialNetwork col-2 col-md-1 text-center'>
+                    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div className='row justify-content-around text-light py-4 px-5'>
+                <div className='col-2 py-5 d-none d-xl-block'>
                     <img src='./img/footerLogo.png' className='img-fluid' />
                 </div>
-                <div className='col-2'>
+                <div className='col-12 col-sm-6 col-md-4 col-xl-3'>
                     <h3 className='footer-header pb-3'>دسترسی سریع</h3>
-                    <ul className='px-3'>
+                    <ul className='px-3 pr-4'>
                         <li>
                             <a href='#' className='footer-link'>خدمات</a>
                         </li>
@@ -21,7 +35,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='col-2'>
+                <div className='col-md-4 col-xl-3 d-none d-lg-block'>
                     <h3 className='footer-header pb-3'>درباره ما</h3>
                     <ul className='list-unstyled px-0'>
                         <li>
@@ -33,7 +47,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='col-2'>
+                <div className='col-12 col-sm-6 col-md-4 col-xl-3'>
                     <h3 className='footer-header pb-3'>تماس با ما</h3>
                     <ul className='px-3 list-unstyled'>
                         <li>
@@ -76,8 +90,7 @@ const Footer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='col-2'>
-                    <h3 className='footer-header pb-3'>شبکه اجتماعی</h3>
+                <div className='col-md-4 col-xl-3 d-none d-lg-block'>
                     <div className='row justify-content-around mt-3'>
                         <a href='#' className='socialNetwork col-3'>
                             <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
