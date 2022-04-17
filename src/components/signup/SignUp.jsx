@@ -84,7 +84,7 @@ const SignUp = () => {
             }
             // send the new driver to redux store
             dispatch(addDriver(drivers, newDriver));
-            alert("با موفقیت ثبت نام کردید.")
+            alert("کاربر جدیدی ثبت شد و در پنل مدیریت قابل مشاهده است.")
             // reset the form input values
             e.target.reset();
         }

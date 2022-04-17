@@ -124,7 +124,7 @@ const Landing = () => {
                 <div className='my-5'>
                     <div className='quotes container text-center'>
                         <div className='row justify-content-around'>
-                            <div className='col-3'>
+                            <div className='col-6 col-sm-4'>
                                 <img src='./img/person2.jpg' className='img-thumbnail rounded-circle' />
                                 <blockquote class="blockquote">
                                     <p class="mb-0">
@@ -135,7 +135,7 @@ const Landing = () => {
                                     <footer class="blockquote-footer">مهرداد کریمی</footer>
                                 </blockquote>
                             </div>
-                            <div className='col-3'>
+                            <div className='col-6 col-sm-4 d-none d-sm-block'>
                                 <img src='./img/person3.jpg' className='img-thumbnail rounded-circle' />
                                 <blockquote class="blockquote">
                                     <p class="mb-0">
@@ -146,7 +146,7 @@ const Landing = () => {
                                     <footer class="blockquote-footer">آرش ایزدی</footer>
                                 </blockquote>
                             </div>
-                            <div className='col-3'>
+                            <div className='col-6 col-sm-4'>
                                 <img src='./img/person1.jpg' className='img-thumbnail rounded-circle' />
                                 <blockquote class="blockquote">
                                     <p class="mb-0">
