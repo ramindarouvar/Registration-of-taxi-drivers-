@@ -39,29 +39,31 @@ const AdminPanel = ({match}) => {
                                 </div>
                                 <hr />
                                 <div className='card-body col-6 col-md-12' style={{fontSize: "20px"}}>
-                                    نام مدیر: 
-                                    {" "}
-                                    <span className="mr-1 text-muted">احمد</span>
-                                    <hr/>
-                                    نام خانوادگی:
-                                    {" "}
-                                    <span className="mr-1 text-muted">رهنما</span>
-                                    <hr/>
-                                    شهر:
-                                    {" "}
-                                    <span className="mr-1 text-muted">اصفهان</span>
-                                    <hr/>
-                                    عنوان شغلی:
-                                    {" "}
-                                    <span className="mr-1 text-muted">مدیر تاکسیرانی</span>  
-                                    <hr/>
-                                    تاریخ عضویت:
-                                    {" "}
-                                    <span className="mr-1 text-muted">1385/02/12</span>
-                                    <hr/>
-                                    تاریخ آخرین بازدید:
-                                    {" "}
-                                    <span className="mr-1 text-muted">1400/10/25</span>
+                                    <div className='px-3'>
+                                        نام مدیر: 
+                                        {" "}
+                                        <span className="mr-1 text-muted">احمد</span>
+                                        <hr/>
+                                        نام خانوادگی:
+                                        {" "}
+                                        <span className="mr-1 text-muted">رهنما</span>
+                                        <hr/>
+                                        شهر:
+                                        {" "}
+                                        <span className="mr-1 text-muted">اصفهان</span>
+                                        <hr/>
+                                        عنوان شغلی:
+                                        {" "}
+                                        <span className="mr-1 text-muted">مدیر تاکسیرانی</span>  
+                                        <hr/>
+                                        تاریخ عضویت:
+                                        {" "}
+                                        <span className="mr-1 text-muted">1385/02/12</span>
+                                        <hr/>
+                                        تاریخ آخرین بازدید:
+                                        {" "}
+                                        <span className="mr-1 text-muted">1400/10/25</span>
+                                    </div>
                                 </div>
                             </div>
                             <a href="#" className='text-center btn btn-danger text-light py-1 rounded-0' style={{fontSize: "24px"}}>خروج</a>
