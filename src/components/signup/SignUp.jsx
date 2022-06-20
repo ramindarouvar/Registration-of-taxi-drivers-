@@ -87,6 +87,7 @@ const SignUp = () => {
             alert("کاربر جدیدی ثبت شد و در پنل مدیریت قابل مشاهده است.")
             // reset the form input values
             e.target.reset();
+            forceUpdate(2);
         }
         else{
             // show error messages to user
