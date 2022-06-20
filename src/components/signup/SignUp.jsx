@@ -86,7 +86,16 @@ const SignUp = () => {
             dispatch(addDriver(drivers, newDriver));
             alert("کاربر جدیدی ثبت شد و در پنل مدیریت قابل مشاهده است.")
             // reset the form input values
+            validator.current.hideMessages();
             e.target.reset();
+            setDriverId();
+            setFirstname();
+            setLastname();
+            setPhone();
+            setPersonPhoto();
+            setDLicenseCardImage();
+            setAddress();
+            setAcceptTheRules();
             forceUpdate(2);
         }
         else{
